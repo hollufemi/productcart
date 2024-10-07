@@ -1,0 +1,86 @@
+*{
+    box-sizing: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top{
+    margin-left:130px;
+    
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin:90px
+}
+#menu{
+    
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 20px;
+margin-left: 40px;
+width: 800px;
+}
+
+#amount{
+    color:red;
+    font-weight: 700;
+    
+}
+
+#fm{
+    color: gray;
+}
+
+.quantity{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    width: 150px;
+    display: none;
+    border-radius: 20px;
+    position: relative;
+    left: 90px;
+    bottom: 80px;
+    width: 120px;
+
+}
+
+.food{
+
+    .img{
+        width: 300px;
+    }
+    
+    button{
+        align-content: center;
+        border-radius: 20px;
+        position: relative;
+        left: 90px;
+        bottom: 20px;
+        height: 50px;
+        cursor: pointer;
+
+        
+    }
+            
+}
+
+.we{
+    border: 2px solid black;
+    width: 300px;
+    height: 250px;
+    h1{
+        color: red;
+    }
+    p{
+        color: gray;
+    }
+}
+#cart{
+    color: red;
+}
